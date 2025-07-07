@@ -1,6 +1,6 @@
 variable tag_key {
   type        = string
-  default     = "example"
+  default     = "Project"
   description = "The key for the cost allocation tag."
 }
 

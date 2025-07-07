@@ -1,7 +1,7 @@
 variable "guardrail_arn" {
   description = "ARN do Guardrail"
   type        = string
-  default     = "arn:aws:bedrock:us-east-1:339388549607:guardrail/7g0he963bq9u"
+  default     = "arn:aws:bedrock:us-east-1:339388549607:guardrail/hfusosfh3f2n"
 }
 
 variable "description" {
