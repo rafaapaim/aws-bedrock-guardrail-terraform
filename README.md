@@ -39,26 +39,21 @@ This project provides Infrastructure as Code (IaC) for provisioning and versioni
 
 ```bash
 git clone https://github.com/rafaapaim/aws-bedrock-guardrails-terraform.git
-cd aws-bedrock-guardrails-terraform
+cd aws-bedrock-guardrails-terraform/module
 ```
 
-### 2. Initialize Terraform
+### 2. Initialize, Plan the Infrastructure and Apply the Configuration
 
 ```bash
-terraform init
+make all RESOURCE=<module-name>
 ```
 
-### 3. Plan the Infrastructure
+### 3. Destroy resources
 
 ```bash
-terraform plan
+make destroy RESOURCE=<module-name>
 ```
 
-### 4. Apply the Configuration
-
-```bash
-terraform apply
-```
 
 ## 🗃️ Versioning Guardrails
 
