@@ -8,13 +8,15 @@ This project provides Infrastructure as Code (IaC) for provisioning and versioni
 .
 ├── modules/
 │ └── aws-guardrail/
-│ ├── main.tf
-│ ├── variables.tf
-│ ├── outputs.tf
-├── environments/
-│ └── dev/
-│ ├── main.tf
-│ ├── terraform.tfvars
+| | ├── bedrock.tf
+│ │ ├── main.tf
+│ │ ├── variables.tf
+│ │ ├── outputs.tf
+│ └── aws-guardrail-version/
+| | ├── bedrock.tf
+│ │ ├── main.tf
+│ │ ├── variables.tf
+│ │ ├── outputs.tf
 ├── README.md
 ```
 
